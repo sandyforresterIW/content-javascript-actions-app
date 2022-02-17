@@ -10,6 +10,7 @@ jobs:
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
         id: hello
+        uses: ./
         with:
           who-to-greet: 'sandyFo' # change it to your name
       # Use the output from the `hello` step
